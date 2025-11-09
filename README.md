@@ -25,10 +25,6 @@ ChatTech is an open-source AI-powered web-based chat application designed to dem
 - `script.js` - JavaScript for chat functionality
 - `images/` - Contains project images (including preview)
 
-## Preview
-
-![Preview](images/preview.png)
-
 ## Author
 
 **WailHassan**  

@@ -1,6 +1,6 @@
 # ChatTech
 
-![Project Preview](images/preview.png)
+![Project Preview](images/Previwe.jpg)
 
 ChatTech is an open-source AI-powered web-based chat application designed to demonstrate basic front-end development skills using HTML, CSS, and JavaScript. It allows users to experience free AI chat functionality and is available for anyone to use, modify, and extend.
 

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Coding By Wailhassan - https://github.com/wailhassan -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking Tap logo  -->
+    <link rel="icon" href="./images/ChatTech-TapLogo.png">
+    <!-- Linking Google Fonts for Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- linking Css Style -->
+    <link rel=" stylesheet" href="Style.css">
+    <title>ChatTech</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- App Header -->
+        <header class="app-header">
+            <h1 class="heading">
+                Hello, there
+            </h1>
+            <h2 class="sub-heading">
+                How can I help you?
+            </h2>
+        </header>
+
+        <!-- Suggestions List -->
+        <ul class="suggestions">
+
+            <li class="suggestions-item">
+                <p class="text">Explain how to integrate AI tools into my development workflow.</p>
+                <span class="material-symbols-outlined">
+                    draw
+                </span>
+            </li>
+
+            <li class="suggestions-item">
+                <p class="text">What are the top Web3 and blockchain development trends for 2026?</p>
+                <span class="material-symbols-outlined">
+                    lightbulb
+                </span>
+            </li>
+
+            <li class="suggestions-item">
+                <p class="text">Help me create a Next.js 14 app with server components and AI features.</p>
+                <span class="material-symbols-outlined">
+                    explore
+                </span>
+            </li>
+
+            <li class="suggestions-item">
+                <p class="text">How to implement sustainable and eco-friendly design principles in tech?</p>
+                <span class="material-symbols-outlined">
+                    code_blocks
+                </span>
+            </li>
+        </ul>
+
+        <!-- Chats Container -->
+        <div class="chats-container">
+            <!-- <div class="message user-message">
+                <p class="message-text">Lorem ipsum dolor sit amet consectetur adipisicing elit Necessitatibus repellat.
+                </p>
+            </div>
+            <div class="message bot-message">
+                <img src="./images/ChatTech-TapLogo.png" class="avatar">
+                <p class="message-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus.
+                </p>
+            </div> -->
+        </div>
+
+        <!-- Prompt Container -->
+        <div class="prompt-container">
+            <div class="prompt-wrapper">
+                <form action="#" class="prompt-form">
+                    <input type="text" placeholder="Ask ChatTech" class=" prompt-input" required>
+                    <div class="prompt-actions">
+                        <!-- File Upload Wrapper -->
+                        <div class="file-upload-wrapper">
+                            <img src="#" class="file-preview">
+                            <input type="file" accept="image/*, .pdf, .txt, .csv" id="file-input" hidden>
+                            <button type="button" class=" file-icon material-symbols-outlined">
+                                description
+                            </button>
+                            <button id="add-file-btn" type="button" class="material-symbols-outlined">
+                                attach_file
+                            </button>
+                            <button id="cancel-file-btn" type="button" class="material-symbols-outlined">
+                                close
+                            </button>
+                        </div>
+
+                        <button type="button" id="stop-response-btn" class="material-symbols-outlined">
+                            stop_circle
+                        </button>
+                        <button id="send-prompt-btn" class="material-symbols-outlined">
+                            arrow_upward
+                        </button>
+                    </div>
+                </form>
+                <button id="theme-toggle-btn" class="material-symbols-outlined">
+                    light_mode
+                </button>
+                <button id="delete-chats-btn" class="material-symbols-outlined">
+                    delete
+                </button>
+            </div>
+            <p class="disclaimer-text">ChatTech can mistakes, so double-check it. <br> Designed & coded by
+                <a href="https://github.com/wailhassan"> Wail Hassan</a>
+            </p>
+
+        </div>
+    </div>
+
+    <!-- Linking JaveScript file -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
